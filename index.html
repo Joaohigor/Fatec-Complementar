@@ -9,11 +9,15 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section class="todo-list">
-        <input id="todoInput" type="text">
-        <button type="button" onclick="btnCliked()">Adicionar Tarefa</button>
+    <section class="card todo-list">
+        <div class="row">
+            <button type="button" class="icon-button">
+                <img src="assets/down-arrow-svgrepo-com.svg" alt="">
+            </button>            
+            <input class="text-field" id="todoInput" type="text" placeholder="O que precisa ser feito">
+        </div>
         <ul id="list">
-            <li>Item Adicionado</li>
+            <!--<li>Item Adicionado</li>-->
         </ul>
     </section>
     <script src="./index.js"></script>
